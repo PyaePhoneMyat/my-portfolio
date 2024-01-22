@@ -26,7 +26,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-10'>
-        <div data-aos='fade-up'>
+        <div data-aos='fade-down'>
           <a
             href='https://pokemon-catch-theta.vercel.app/'
             target='_blank'
@@ -45,7 +45,7 @@ const Projects = () => {
             Pokemon Catch
           </p>
         </div>
-        <div data-aos='fade-down'>
+        <div data-aos='fade-up'>
           <a
             href='https://pyaephonemyat.github.io/Food-Order/'
             target='_blank'
@@ -63,7 +63,7 @@ const Projects = () => {
             </p>
           </a>
         </div>
-        <div data-aos='fade-up'>
+        <div data-aos='fade-down'>
           <a
             href='https://pyaephonemyat.github.io/pig-game/'
             target='_blank'
@@ -81,7 +81,7 @@ const Projects = () => {
             </p>
           </a>
         </div>
-        <div data-aos='fade-down'>
+        <div data-aos='fade-up'>
           <a
             href='https://pyaephonemyat.github.io/guessnumber/'
             target='_blank'
