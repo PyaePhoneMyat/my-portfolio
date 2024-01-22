@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Resume from '../assets/Frond-end CV Form.5.pdf';
 
 const About = () => {
   useEffect(() => {
@@ -44,8 +44,9 @@ const About = () => {
               </div>
               <div className='flex space-x-2 text-xl ml-3 '>
                 <a
-                  href=''
-                  data-aos='fade-left'
+                  href={Resume}
+                  download={Resume}
+                  data-aos='fade-up'
                   className='neon-button shadow-xl hover:shadow-emerald-700/50 duration-75 text-white border-2 hover:bg-emerald-600 border-emerald-600 rounded-lg py-4 px-8 uppercase relative overflow-hidden cursor-pointer'
                 >
                   resume &#8595;

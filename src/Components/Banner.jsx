@@ -17,13 +17,14 @@ const Banner = () => {
       duration: 800,
     });
   }, []);
+  // lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center
   return (
     <div
       data-aos='fade-up'
       className='lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center'
       id='Home'
     >
-      <div className='h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white '>
+      <div className='h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white'>
         <h1 className='text-[52px] font-semibold mb-8 leading-normal uppercase'>
           Welcome To<span className='text-emerald-400'> My Portfolio</span>
         </h1>
