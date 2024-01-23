@@ -61,4 +61,3 @@ const About = () => {
 };
 
 export default About;
-// block py-4 mx-auto text-white bg-emerald-500 rounded-xl px-7 hover:bg-emerald-800

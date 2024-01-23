@@ -7,7 +7,6 @@ import Logo from '../assets/logo.png';
 const Nav = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => {
-    console.log('handleclick= ', click);
     setClick(!click);
   };
 
@@ -28,8 +27,9 @@ const Nav = () => {
     'my-4 py-4 border-b border-emerald-800 hover:bg-emerald-800 hover:rounded';
 
   useEffect(() => {
+    window.addEventListener('scroll', scrollHeader);
     return () => {
-      window.addEventListener('scroll', scrollHeader);
+      window.removeEventListener('scroll', scrollHeader);
     };
   }, []);
 
