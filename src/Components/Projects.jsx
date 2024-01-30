@@ -1,6 +1,6 @@
 import diceGame from '../assets/dice_game.png';
 import foodOrder from '../assets/food_order.png';
-import guessGame from '../assets/guess_game.png';
+import hoobank from '../assets/hoo_bank.png';
 import pokemonCatch from '../assets/pokemon_catch.png';
 import { useEffect } from 'react';
 
@@ -83,7 +83,7 @@ const Projects = () => {
         </div>
         <div data-aos='fade-up'>
           <a
-            href='https://pyaephonemyat.github.io/guessnumber/'
+            href='https://bank-modern-web.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -91,11 +91,11 @@ const Projects = () => {
               height={350}
               width={250}
               className={projectStyle}
-              src={guessGame}
-              alt='guessGame'
+              src={hoobank}
+              alt='hoobank'
             />
             <p className='uppercase text-emerald-400 text-xl font-bold text-center mt-2'>
-              Guess Game
+              Modern Bank Web
             </p>
           </a>
         </div>
