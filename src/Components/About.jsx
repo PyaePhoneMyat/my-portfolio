@@ -19,8 +19,8 @@ const About = () => {
           </h1>
           <div data-aos='fade-right'>
             <span className='text-3xl text-emerald-400 font-bold'>
-              Here&#39;s Me, Pyae Phone Myat. I&#39;m a Junior Frontend
-              Developer.
+              Here&#39;s Me, Pyae Phone Myat, also known as Chris. <br />{' '}
+              I&#39;m a Junior Frontend Developer.
             </span>
             <p className='mt-2 text-xl'>
               Quick-learner, who loves to code and self-study. Have a strong

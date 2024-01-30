@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='mb-4 md:mb-0'>
           <img src={Logo} alt='logo' width={70} />
           <p className='text-[16px] my-4 font-semibold'>
-            Don't be hesitate to contact me!
+            I'm ready to collaborate!
           </p>
         </div>
         <div>
@@ -70,9 +70,7 @@ const Footer = () => {
           </h2>
           <p className='text-[16px] my-4 tracking-wider'>
             Email:
-            <a href='mailto:pyaephonemyat2004@gmail.com'>
-              pyaephonemyat2004@gmail.com
-            </a>
+            <a href='mailto:devppm23@gmail.com'>devppm23@gmail.com</a>
           </p>
           <p className='text-[16px] my-4 tracking-wider'>
             Ph: +95 9777 271 994
